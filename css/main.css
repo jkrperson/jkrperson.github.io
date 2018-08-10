@@ -9,6 +9,7 @@
 
     font-family: MontserratM;
     src: url('../font/Montserrat-Medium.ttf');
+
 }
 
 @font-face{
@@ -49,13 +50,75 @@ h1 {
 
 }
 
+.navi{
+
+    z-index: 100;
+    display: flex;
+    height:60px;
+    position:fixed;
+    width:100%;
+    color: white;
+    transition: background-color 0.5s ease 0s;
+    
+
+}
+
+.logo{
+
+    display:inline;
+    font-family: MontserratB;
+    font-size: 3rem;
+    margin-left: 2.5%;    
+
+}
+
+.menu{
+
+    display:inline;
+    margin-left: 40%;
+    margin-top: 1%;
+
+}
+
+.navi.solid {
+
+    background-color: rgb(31, 56, 100);
+    transition: background-color 0.5s ease 0s;
+
+}
+
+.nav-menu{
+
+    display: flex;
+    margin:0;
+    padding: 0;
+    font-family: MontserratL;
+    font-size: 1.5rem;
+
+}
+
+.nav-menu li{
+
+    margin-left:15%;
+    display:inline;
+
+}
+
 .intro {
 
-    margin: 0;
-    padding: 0;
     background: url(../images/background.png) no-repeat center;
     color: #ffffff;
     text-align: center;
+    
+
+}
+
+.title {
+
+    display: absolute;
+    padding-top: 17.5%;
+    font-size: 5rem;
+    font-family: MontserratM;
 
 }
 
@@ -70,9 +133,7 @@ h1 {
     height: 100%;
     width: 50%;
     margin: 0;
-    background-color: green;
     text-align: center;
-    
 
 }
 
@@ -86,6 +147,7 @@ h1 {
     border-bottom: 2px black solid;
 
 }
+
 
 .tc-title h1{
 
@@ -132,8 +194,49 @@ h1 {
     height: 100%;
     width: 50%;
     margin: 0;
-    background-color: green;
     text-align: center;
+
+}
+
+.teamc-title{
+
+    margin-top: 10%;
+    font-family: MontserratB;
+    font-size: 3rem;
+
+}
+
+.teamc-members{
+
+    margin-top: 5%;
+    display:flex;
+
+}
+
+.member{
+
+    margin-left: 8%;
+    
+}
+
+.name{
+
+    font-family: MontserratB;
+    font-size: 1.2rem;
+
+}
+
+.par{
+
+
+
+}
+
+.t-img{
+
+    width:100px;
+    border-radius: 50%;
+    border: 3px solid black;
 
 }
 
@@ -177,7 +280,7 @@ h1 {
     margin-left: 30%;
     margin-right: 30%; 
     width: 40%;
-    height: auto;;
+    height: auto;
     border-radius: 50%;
 
 }

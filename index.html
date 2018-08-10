@@ -15,41 +15,63 @@
                 section : ".sec",
             });
         });
+
+        $(document).ready(function() {
+        // Transition effect for navbar 
+            $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+                if($(this).scrollTop() > 500 ) { 
+                    $('.navi').addClass('solid');
+                } else {
+                    $('.navi').removeClass('solid');
+                }
+            });
+        });
     </script>
 </head>
 <body>
 
+    <div class="navi">
 
-    <div class="content">
-
-        <div class="heading">
-
-            <div class="navi">
-
-                <div class="logo">
-
-                </div>
-
-
-                <div class="menu">
-
-                </div>
-
-            </div>
-
-            <div class="trailing">
-
-            </div>
-
+        <div class="logo">
+            Fiat
         </div>
 
 
+        <div class="menu">
+            <ul class="nav-menu">
+                <li>
+                    Home
+                </li>
+                <li>
+                    Tech
+                </li>
+                <li>
+                    Team
+                </li>
+                <li>
+                    Contact
+                </li>
+                <li>
+                    FAQs
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="content">
+
         <div class="intro sec">
-            <span class="title">
 
-            </span>
+            <div class="title">
+                AI in Financial Technology
+            </div>
+
             <div class="click-to-scroll">
-
+                <button onclick="$.scrollify.next();">
+                    Something
+                </button>
             </div>
         </div>
 
@@ -88,35 +110,47 @@
             <div class="team-content">
 
                 <div class="teamc-title">
-
+                    Team Members
                 </div>
 
 
                 <div class="teamc-members">
 
                     <div class="member">
-                        
-                        <span class="name">
-                            
-                        </span>
 
+                        <img src="images/glyca.jpg" class="t-img"/>
+
+                        <div class="name">
+                        
+                            Glyca Nuncio                            
+                        
+                        </div>
+                        
                     </div>
 
 
                     <div class="member">
 
-                        <span class="name">
-                            
-                        </span>
+                        <img src="images/jose.jpg" class="t-img"/>
+
+                        <div class="name">
+                        
+                            Jose Kristian Resabal
+                        
+                        </div>
         
                     </div>
 
 
-                    <div class="member">
+                    <div class="member">    
 
-                        <span class="name">
-                            
-                        </span>      
+                        <img src="images/kyle.jpg" class="t-img"/>
+
+                        <div class="name">
+                        
+                            Kyle Coo
+                        
+                        </div>      
 
                     </div>
 
@@ -153,7 +187,7 @@
 
                 <div class="contact-member">
 
-                        <img src="images/jose.jpg" class="c-img"/>
+                    <img src="images/jose.jpg" class="c-img"/>
                 
                     <div class="contact-desc">
 
