@@ -179,22 +179,21 @@ h1 {
 
 .gly:hover{
   transition: 200ms;
-  background-color:#CD3E9B;
+  background-color:#1f3864;
   color:white; 
   }
 
 .jos:hover{
   transition: 200ms;
-  background-color:#1f3864;
+  background-color:#A43741;
   color:white; }
 
 .kyl:hover{
   transition: 200ms;
-  background-color:#0A7B0A;
+  background-color:#AAA639;
   color:white; }
 
 .teamc-proceed{
-
   padding-top: 20px;
   font-size: 3rem;
   font-weight: bold;
@@ -202,7 +201,6 @@ h1 {
   transition: 200ms;}
 
 .teamc-proceed:hover{
-
   background-color: #1f3864;
   color: white;
   transition: 200ms;
@@ -214,13 +212,13 @@ h1 {
 
 .contact-title {
   text-align: center;
-  margin-left: 39%;
-  margin-right: 39%;
+  margin-left: 35%;
+  margin-right: 35%;
   width: auto;
-  padding-top: 6.5%;
+  padding-top: 4%;
   border-bottom: solid black 2px;
   font-family: MontserratB;
-  font-size: 3rem; }
+  font-size: 6rem; }
 
 .contact-group {
   margin-top: 2.5%;
@@ -230,7 +228,13 @@ h1 {
 
 .contact-member {
   width: 33.33%;
-  height: 100%; }
+  height: 100%;
+  border-right: 2px solid black; }
+
+.contact-desc{
+  padding-top: 10%;
+  padding-left: 10%;
+}
 
 .c-img {
   margin-top: 10px;
@@ -239,6 +243,21 @@ h1 {
   width: 40%;
   height: auto;
   border-radius: 50%; }
+
+.contact-info-contain{
+
+  font-size: 1.5rem;
+  display: inline-block;
+
+}
+
+.contact-info-contain span{
+  display: inline-block;
+  vertical-align: middle;}
+
+.icons{
+  width: 75px;
+  height: 75px;}  
 
 .question {
   text-align: center;
