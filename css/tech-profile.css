@@ -1,0 +1,71 @@
+@font-face {
+  font-family: MontserratB;
+  src: url("../font/Montserrat-ExtraBold.ttf"); }
+@font-face {
+  font-family: MontserratM;
+  src: url("../font/Montserrat-Medium.ttf"); }
+@font-face {
+  font-family: MontserratL;
+  src: url("../font/Montserrat-Light.ttf"); }
+@font-face {
+  font-family: MontserratR;
+  src: url("../font/Montserrat-Regular.ttf"); }
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: MontserratL; }
+
+.content {
+  position: absolute;
+  z-index: 100;
+  background-color: transparent;
+  width: 100%; }
+  .content .sec {
+    background-color: transparent;
+    width: 100%;
+    height: 100vh; }
+  .content .tech-background {
+    text-align: center;
+    display: block;
+    padding-top: 17.5%; }
+    .content .tech-background .tb-title {
+      font-size: 5rem;
+      font-weight: bold;
+      color: white; }
+    .content .tech-background .tb-subtitle {
+      font-size: 3rem;
+      color: white; }
+  .content .ai {
+    color: white; }
+    .content .ai .ai-part {
+      display: inline-flex;
+      text-align: center;
+      width: 40%; }
+    .content .ai .title {
+      padding-top: 15%;
+      margin-left: 5%;
+      width: 40%;
+      font-size: 4.5rem; }
+    .content .ai .content {
+      word-wrap: normal;
+      padding-top: 15%;
+      font-size: 2rem;
+      margin-left: 10%; }
+      .content .ai .content p {
+        width: 100%; }
+
+canvas {
+  display: block;
+  vertical-align: bottom; }
+
+#particles-js {
+  width: 100%;
+  background-color: #b61924;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: -100; }
+
+/*# sourceMappingURL=tech-profile.css.map */
