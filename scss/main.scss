@@ -1,0 +1,353 @@
+@font-face{
+
+    font-family: MontserratB;
+    src: url('../font/Montserrat-ExtraBold.ttf');
+    
+}
+
+@font-face{
+
+    font-family: MontserratM;
+    src: url('../font/Montserrat-Medium.ttf');
+
+}
+
+@font-face{
+
+    font-family: MontserratL;
+    src: url('../font/Montserrat-Light.ttf');
+
+}
+
+@font-face{
+
+    font-family: MontserratR;
+    src: url('../font/Montserrat-Regular.ttf');
+
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: MontserratL;
+
+}
+
+h1 {
+
+    font-family: MontserratB;
+
+}
+
+.sec {
+
+    display: block;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.navi{
+
+    line-height:50px;
+    position:fixed;
+    width:100%;
+    color: white;
+    transition: background-color 0.5s ease 0s;
+    
+}
+
+.logo{
+
+    position: fixed;
+    display: inline;
+    font-family: MontserratB;
+    font-size: 3rem;
+    margin: 0.9% 2.5%;
+    margin-left: 3%;    
+
+}
+
+.menu{
+
+    display:inline;
+    text-align: right
+
+}
+
+.nav-menu{
+
+    list-style: none;
+    margin:0;
+    padding: 0;
+
+}
+
+.nav-menu li{
+
+    text-align: center;
+    font-family: MontserratR;
+    font-size: 2rem;
+    display: inline-block;
+    width: 150px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin:0;
+    height: 100%;
+    border-left: 2px white solid;
+    cursor: pointer;
+
+}
+
+
+.nav-menu li:hover{
+
+    background-color:rgb(255, 255, 255);
+    color: rgb(31, 56, 100);
+    transition: 0.5s;
+
+}
+
+.nav-menu li::selection {
+    background-color:Transparent;
+}
+
+.navi.solid {
+
+    background-color: rgb(31, 56, 100);
+    transition: background-color 0.5s ease 0s;
+    opacity: 0.95 ;
+
+}
+
+.nav-butt:hover{
+
+    background-color: white;
+
+}
+
+.intro {
+
+    background: url(../images/background.png) no-repeat center;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.title {
+
+    display: absolute;
+    padding-top: 17.5%;
+    font-size: 5rem;
+    font-family: MontserratM;
+
+}
+
+.tech-pro {
+
+    display: flex;
+
+}
+
+.tech-pro-content {
+
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+
+}
+
+.tc-title{
+
+    font-size: 1.75rem;
+    margin-left:19%;
+    margin-right: 19%;
+    padding-top: 15%;
+    padding-bottom: 10px;
+    border-bottom: 2px black solid;
+
+}
+
+
+.tc-title h1{
+
+    margin:0;
+    padding: 0;
+
+}   
+
+.tc-content{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size:3rem;
+
+}
+
+.tech-background{
+
+    background: url(../images/tech-prof1.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width:50%;
+
+}
+
+/* mag-ingat delete if everything can be flex */
+.team{
+
+    display:flex;
+
+}
+
+.team-background{
+
+    background: url(../images/team-bg1.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width:50%;
+
+}
+
+.team-content {
+
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    display:block;
+
+}
+
+.teamc-title{
+
+    margin-top: 13%;
+    font-family: MontserratB;
+    font-size: 3rem;
+    border-bottom: 3px black solid;
+    margin-left:30%;
+    margin-right:30%;
+    padding-bottom: 2%;
+
+
+}
+
+.teamc-members{
+
+    margin-top: 5%;
+    display:flex;
+
+}
+
+.member{
+
+    width:33%;
+    border-right: black 2px solid;    
+
+}
+
+.last-member{
+
+    border-right: none;
+
+}
+
+.name{
+
+    font-family: MontserratB;
+    font-size: 1.4rem;
+    text-decoration: underline;
+
+}
+
+.par{
+
+
+
+}
+
+.t-img{
+
+    width:100px;
+    border-radius: 50%;
+    border: 3px solid black;
+
+}
+
+.contact{
+
+    background-size: cover;
+     
+}
+
+.contact-title{
+    
+    
+    text-align: center;
+    margin-left:  39%;
+    margin-right: 39%;
+    width: auto;
+    padding-top: 6.5%; 
+    border-bottom: solid black 2px;
+    font-family: MontserratB;
+    font-size: 3rem;
+
+}
+
+
+
+.contact-group{
+
+    margin-top:2.5%;
+    height:80%;
+    width:100%;
+    display: inline-flex;
+
+}
+
+.contact-member{
+
+    width: 33.33%;
+    height: 100%;
+
+}
+
+.c-img{
+
+    margin-top:10px;
+    margin-left: 30%;
+    margin-right: 30%; 
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+.question{
+
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.question-title{
+    
+    padding-top:7.5%;
+    border-bottom: 3px solid black;
+    font-size: 3rem;
+    font-family: MontserratB;
+    margin-left: 40%;
+    margin-right: 39%;       
+
+}
+
+.question-body {
+
+    margin-top:10%;
+
+}
