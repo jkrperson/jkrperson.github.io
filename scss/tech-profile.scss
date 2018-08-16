@@ -62,6 +62,8 @@ html, body{
             font-size: 5rem;
             font-weight: bold;
             color: white;
+            vertical-align: middle;
+
 
         }
 
@@ -93,7 +95,7 @@ html, body{
             margin-left:5%;
             width: 40%;
             font-size: 4.5rem;
-
+            vertical-align: middle;
 
         }
 
@@ -102,8 +104,10 @@ html, body{
             word-wrap: normal;
             padding-top: 15%;   
             font-size: 2rem;
-            margin-left: 10%;
-            
+            margin-left: 7.5%;
+            vertical-align: middle;
+
+
             p{
 
                 width: 100%;
@@ -115,6 +119,75 @@ html, body{
 
     }
 
+    .ai-bg{
+
+        color: white;
+        vertical-align: middle;
+
+        .part-ai-bg{
+
+            display:inline-flex;
+            text-align: center;
+            width: 40%;
+
+        }
+
+        .title-ai-bg{
+
+            margin-left:5%;
+            width: 40%;
+            font-size: 4.5rem;
+            vertical-align: middle;
+            padding-top: 5%;
+
+        }
+
+        .content-ai-bg{
+
+            word-wrap: normal;   
+            font-size: 2rem;
+            margin-left: 10%;
+            vertical-align: middle;
+            padding-top: 7.5%;
+
+            p{
+
+                width: 100%;
+
+            }
+
+            ul{
+                
+                list-style: none;
+
+            }
+        }
+        
+
+    }
+
+    .ai-uses{
+
+        .example-title{
+            color: white;
+            text-align:center;
+            padding-top: 2.5%;
+
+            .main-example-title{
+                font-size: 4rem;
+                border-bottom: 2px solid white; 
+                margin-right: 16.5%;
+                margin-left: 16.5%;
+            }
+
+            .sub-example-title{
+                padding-top: 10px;
+                font-size: 1.5rem;
+            }
+
+        
+        }
+    }
 }
 
 canvas{

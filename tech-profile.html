@@ -10,6 +10,8 @@
     <script type="text/javascript" src="js/jquery.scrollify.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/scrollreveal.js"></script>
+    
+    
     <script>
         $(function() {
             $.scrollify({
@@ -52,6 +54,125 @@
 
         </div>
 
+        <div class="ai-bg sec">
+            <div class="content-ai-bg part-ai-bg">
+                <ul>
+                    <li>  
+                        <p>
+                            First coined by John McCarthy in 1956 when he held the first academic conference about the subject
+                        </p>                          
+                    </li>
+                    <li>
+                        <p>
+                            Early forms were the Turing50 (Chess game using A.I as opponents)
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="title-ai-bg part-ai-bg">
+                Background
+            </div>
+                            
+        </div>
+
+        <div class="ai-uses sec">
+
+                <div class="example-title" style="text-align: center;">
+    
+                    <div class="main-example-title">
+                        Uses of Artificial Intelligence
+                    </div>
+                    <div class="sub-example-title">
+                        AI is used to develop and rephrase in numerous fields such as:
+                    </div>
+                </div>
+                
+                <div class="example-content ai-part">
+                    
+                    <div class="example">
+                        <div class="ex-img-cont">
+                            <img src="images/examples/1.jpg" class="ex-img">    
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title-cont">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>
+                    <div class="example">
+                        <div class="ex-img-cont">
+
+                        </div>
+                        <div class="ex-title">  
+                            
+                        </div>
+                    </div>                
+                </div>
+    
+            </div>
+
         <div class="fintech sec">
             sdfsdf
         </div>
@@ -73,15 +194,22 @@
     
     <div id="particles-js"></div>
 
-    <script>
-        var cheight = $(document).height();
+    
+
+</body>
+
+<script>
+        var img_height = 0;
+        $(".ex-img").each(function() {
+            img_height += $(this).height();
+        });
+        var cheight = $(".content").height() ;
+        // console.log(cheight);
+        // cheight += + img_height;
         console.log(cheight);
         $("#particles-js").height(cheight);
     </script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
 
-
-
-</body>
 </html>
