@@ -6,21 +6,21 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/tech-profile.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/jquery.scrollify.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/scrollreveal.js"></script>
     
-    
-    <script>
+    <!-- <script>
         $(function() {
             $.scrollify({
                 section : ".sec",
             });
         });
-    </script>
+    </script> -->
 </head>
-<body>
+<body style="background-color: black;">
 
     <!-- <div class="nav">
 
@@ -36,9 +36,9 @@
             </div>
         </div>
 
-        <div class="ai sec">
+        <div class="ai sec" >
 
-            <div class="title ai-part" style="text-align: center;">
+            <div class="title ai-part" style="text-align: center;" data-aos="zoom-out-right" data-aos-delay="300">
 
                 <span>
                         Artificial Intelligence
@@ -46,7 +46,7 @@
 
             </div>
             
-            <div class="content ai-part">
+            <div class="content ai-part" data-aos="zoom-out-right" data-aos-delay="600">
                 <p style="margin:0;">
                         A branch of computer science dealing with the simulation of intelligent behavior 
                 </p>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="ai-bg sec">
-            <div class="content-ai-bg part-ai-bg">
+            <div class="content-ai-bg part-ai-bg"  data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <ul>
                     <li>  
                         <p>
@@ -89,7 +89,7 @@
                 
                 <div class="example-content ai-part">
                     
-                    <div class="example">
+                    <div class="example leftie" >
                         <div class="ex-img-cont">
                             <img src="images/examples/1.jpg" class="ex-img">    
                         </div>
@@ -97,73 +97,74 @@
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example rightie">
                         <div class="ex-img-cont">
 
+                            <img src="images/examples/1.jpg" class="ex-img">    
                         </div>
                         <div class="ex-title">  
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example leftie">
                         <div class="ex-img-cont">
-
+                            <img src="images/examples/1.jpg" class="ex-img">  
                         </div>
                         <div class="ex-title-cont">  
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example rightie">
                         <div class="ex-img-cont">
-
+                            <img src="images/examples/1.jpg" class="ex-img">  
                         </div>
                         <div class="ex-title">  
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example leftie">
                         <div class="ex-img-cont">
-
+                            <img src="images/examples/1.jpg" class="ex-img">  
                         </div>
                         <div class="ex-title">  
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example rightie">
                         <div class="ex-img-cont">
-
+                            <img src="images/examples/1.jpg" class="ex-img">  
                         </div>
                         <div class="ex-title">  
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example leftie">
                         <div class="ex-img-cont">
-
+                            <img src="images/examples/1.jpg" class="ex-img">  
                         </div>
                         <div class="ex-title">  
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example rightie">
                         <div class="ex-img-cont">
-
+                            <img src="images/examples/1.jpg" class="ex-img">  
                         </div>
                         <div class="ex-title">  
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example leftie">
                         <div class="ex-img-cont">
-
+                            <img src="images/examples/1.jpg" class="ex-img">  
                         </div>
                         <div class="ex-title">  
                             
                         </div>
                     </div>
-                    <div class="example">
+                    <div class="example rightie">
                         <div class="ex-img-cont">
-
+                            <img src="images/examples/1.jpg" class="ex-img">  
                         </div>
                         <div class="ex-title">  
                             
@@ -198,6 +199,10 @@
 
 </body>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script>
         var img_height = 0;
         $(".ex-img").each(function() {
@@ -208,8 +213,7 @@
         // cheight += + img_height;
         console.log(cheight);
         $("#particles-js").height(cheight);
-    </script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-
+</script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
 </html>
