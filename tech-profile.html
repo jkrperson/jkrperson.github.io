@@ -13,11 +13,30 @@
     <script type="text/javascript" src="js/scrollreveal.js"></script>
     
     <!-- <script>
+        if($(document).scroll() > 1000){
+
+
+
+        }
+
         $(function() {
+
             $.scrollify({
-                section : ".sec",
+
+                section: ".scrollable",
+                setHeights: false,
+            })
+
+            $.scrollify({
+
+                section : ".miniscrolls",
+                setHeights: true
+
             });
+
         });
+
+        
     </script> -->
 </head>
 <body style="background-color: black;">
@@ -27,170 +46,349 @@
     </div> -->
     <div class="content">
 
-        <div class="tech-background sec">
-            <div class="tb-title">
-                TECH BACKGROUND
+        <div class="scrollable">
+            <div class="tech-background sec" data-aos="flip-up">
+                <div class="tb-title">
+                    TECH BACKGROUND
+                </div>
+                <div class="tb-subtitle">
+                    AI in Fintech
+                </div>
             </div>
-            <div class="tb-subtitle">
-                AI in Fintech
-            </div>
-        </div>
 
-        <div class="ai sec" >
+            <div class="ai sec" >
 
-            <div class="title ai-part" style="text-align: center;" data-aos="zoom-out-right" data-aos-delay="300">
+                <div class="title ai-part" style="text-align: center;" data-aos="zoom-out-right" data-aos-delay="300">
 
-                <span>
-                        Artificial Intelligence
-                </span>
+                    <span>
+                            Artificial Intelligence
+                    </span>
 
-            </div>
-            
-            <div class="content ai-part" data-aos="zoom-out-right" data-aos-delay="600">
-                <p style="margin:0;">
+                </div>
+
+                <div class="content ai-part" data-aos="zoom-out-right" data-aos-delay="600">
+                    <p style="margin:0;">
                         A branch of computer science dealing with the simulation of intelligent behavior 
-                </p>
-            </div>
-
-        </div>
-
-        <div class="ai-bg sec">
-            <div class="content-ai-bg part-ai-bg"  data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                <ul>
-                    <li>  
-                        <p>
-                            First coined by John McCarthy in 1956 when he held the first academic conference about the subject
-                        </p>                          
-                    </li>
-                    <li>
-                        <p>
-                            Early forms were the Turing50 (Chess game using A.I as opponents)
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="title-ai-bg part-ai-bg">
-                Background
-            </div>
-                            
-        </div>
-
-        <div class="ai-uses sec">
-
-                <div class="example-title" style="text-align: center;">
-    
-                    <div class="main-example-title">
-                        Uses of Artificial Intelligence
-                    </div>
-                    <div class="sub-example-title">
-                        AI is used to develop and rephrase in numerous fields such as:
-                    </div>
+                    </p>
                 </div>
-                
-                <div class="example-content ai-part">
+
+            </div>
+
+            <div class="ai-bg sec">
+                <div class="content-ai-bg part-ai-bg"  data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <ul>
+                        <li>  
+                            <p>
+                                First coined by John McCarthy in 1956 when he held the first academic conference about the subject
+                            </p>                          
+                        </li>
+                        <li>
+                            <p>
+                                Early forms were the Turing50 (Chess game using A.I as opponents)
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="title-ai-bg part-ai-bg" data-aos="fade-up" >
+                    Background
+                </div>
+
+            </div>
+
+            <div class="ai-uses sec">
+
+                    <div class="example-title" style="text-align: center;">
                     
-                    <div class="example leftie" >
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">    
+                        <div class="main-example-title" data-aos="fade-down">
+                            Uses of Artificial Intelligence
                         </div>
-                        <div class="ex-title">  
-                            
+                        <div class="sub-example-title"  data-aos="fade-down">
+                            AI is used to develop and rephrase in numerous fields such as:
                         </div>
                     </div>
-                    <div class="example rightie">
-                        <div class="ex-img-cont">
 
-                            <img src="images/examples/1.jpg" class="ex-img">    
+                    <div class="example-content ai-part">
+
+                        <div class="example" >
+                            <div class="contain-examples " data-aos="zoom-in" >
+                                <div class="ex-img-cont leftie" >
+                                    <img src="images/examples/1.jpg" class="ex-img">    
+                                </div>
+                                <div class="ex-title leftitle">  
+
+                                    AVIATION
+
+                                </div>
+                            </div>
                         </div>
-                        <div class="ex-title">  
-                            
+                        <div class="example ">
+                            <div class="contain-examples" data-aos="zoom-in">
+                                <div class="ex-img-cont rightie">
+                                    <img src="images/examples/2.jpg" class="ex-img">    
+                                </div>
+                                <div class="ex-title rightitle">  
+                                    Computer Science
+                                </div>
+
+                            </div>
+                        </div>   
+                        <div class="example" >
+                                <div class="contain-examples " data-aos="zoom-in" >
+                                    <div class="ex-img-cont leftie" >
+                                        <img src="images/examples/3.jpg" class="ex-img">    
+                                    </div>
+                                    <div class="ex-title leftitle">  
+                                    
+                                        Education
+
+                                    </div>
+                                </div>
                         </div>
+                        <div class="example ">
+                                <div class="contain-examples" data-aos="zoom-in">
+                                    <div class="ex-img-cont rightie">
+                                        <img src="images/examples/4.jpg" class="ex-img">    
+                                    </div>
+                                    <div class="ex-title rightitle">  
+                                           
+                                        
+                                        Finance    
+                                            
+                                    </div>
+
+                                </div>
+                        </div>
+                        <div class="example" >
+                                <div class="contain-examples " data-aos="zoom-in" >
+                                    <div class="ex-img-cont leftie" >
+                                        <img src="images/examples/5.jpg" class="ex-img">    
+                                    </div>
+                                    <div class="ex-title leftitle">  
+                                    
+                                        Medicine
+
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="example ">
+                                <div class="contain-examples" data-aos="zoom-in">
+                                    <div class="ex-img-cont rightie">
+                                        <img src="images/examples/6.jpg" class="ex-img">    
+                                    </div>
+                                    <div class="ex-title rightitle">  
+                                        
+                                        Marketing
+
+                                    </div>
+
+                                </div>
+                        </div>
+                        <div class="example" >
+                                <div class="contain-examples " data-aos="zoom-in" >
+                                    <div class="ex-img-cont leftie" >
+                                        <img src="images/examples/7.jpg" class="ex-img">    
+                                    </div>
+                                    <div class="ex-title leftitle">  
+                                    
+                                    Media
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="example ">
+                                <div class="contain-examples" data-aos="zoom-in">
+                                    <div class="ex-img-cont rightie">
+                                        <img src="images/examples/8.jpg" class="ex-img">    
+                                    </div>
+                                    <div class="ex-title rightitle">  
+ 
+                                        News
+                                    </div>
+
+                                </div>
+                        </div>
+                        <div class="example" >
+                                <div class="contain-examples " data-aos="zoom-in" >
+                                    <div class="ex-img-cont leftie" >
+                                        <img src="images/examples/9.jpg" class="ex-img">    
+                                    </div>
+                                    <div class="ex-title leftitle">  
+                                    
+                                        Transpo.
+                                    </div>
+                                </div>
+                        </div>
+
                     </div>
-                    <div class="example leftie">
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">  
-                        </div>
-                        <div class="ex-title-cont">  
-                            
-                        </div>
-                    </div>
-                    <div class="example rightie">
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">  
-                        </div>
-                        <div class="ex-title">  
-                            
-                        </div>
-                    </div>
-                    <div class="example leftie">
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">  
-                        </div>
-                        <div class="ex-title">  
-                            
-                        </div>
-                    </div>
-                    <div class="example rightie">
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">  
-                        </div>
-                        <div class="ex-title">  
-                            
-                        </div>
-                    </div>
-                    <div class="example leftie">
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">  
-                        </div>
-                        <div class="ex-title">  
-                            
-                        </div>
-                    </div>
-                    <div class="example rightie">
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">  
-                        </div>
-                        <div class="ex-title">  
-                            
-                        </div>
-                    </div>
-                    <div class="example leftie">
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">  
-                        </div>
-                        <div class="ex-title">  
-                            
-                        </div>
-                    </div>
-                    <div class="example rightie">
-                        <div class="ex-img-cont">
-                            <img src="images/examples/1.jpg" class="ex-img">  
-                        </div>
-                        <div class="ex-title">  
-                            
-                        </div>
-                    </div>                
-                </div>
-    
+                
             </div>
 
-        <div class="fintech sec">
-            sdfsdf
+            <div class="fintech sec">
+
+                <div class="title fintech-part" style="text-align: center;" data-aos="zoom-out-right" data-aos-delay="300">
+
+                    <span>
+                        Financial Technology
+                    </span>
+
+                </div>
+
+                <div class="content fintech-part" data-aos="zoom-out-right" data-aos-delay="600">
+
+                    <p>
+                    
+                            Financial technology is the new technology and innovation that aims to compete with traditional financial methods in the delivery of financial services. It is a new industry that uses technology to improve activities in finance.
+                    
+                    </p>
+                
+                </div>
+
+            </div>
+        </div>
+        <div class="scrollable">
+
+            <div class="fintechxai sec">
+
+                <div class="titlex">
+
+                    ARTIFICIAL INTELLIGENCE IN THE FINANCIAL SECTOR
+
+                </div>
+                <div class="contentx">
+
+                    <div class="examplex ">
+
+                        <div class="miniscrolls">
+                            <div class="examplex-title">
+
+                                   1. Advanced customer service
+
+                            </div>
+
+                            <div class="examplex-description ">
+                                <p>
+                                    Robo-advisors. Robo-advisors use algorithms to give advice on financial investments. Using robo-advisors, investors can check how high is the risk if they invest money in that or another deal.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="examplex-vidz miniscrolls">
+
+                                <iframe class="vidz" src="https://www.youtube.com/embed/qiZ1ZpCiR6w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                        </div>
+                    
+                    </div>
+                    <div class="examplex ">
+
+                            <div class="miniscrolls" style="float:right">
+                                <div class="examplex-title">
+    
+                                       2. Fraud detection
+    
+                                </div>
+    
+                                <div class="examplex-description  ">
+                                    <p>
+                                        An AI-based fraud prediction system can learn millions of possible fraud attacks, memorize them and analyze threats.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="examplex-vidz miniscrolls">
+                                
+                                    <iframe class="vidz" src="https://www.youtube.com/embed/UNgdIkuVC6g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        
+                    </div>
+                    <div class="examplex ">
+
+                            <div class="miniscrolls" style="float:right">
+                                <div class="examplex-title">
+    
+                                       3. Lowering the risk in P2P lending
+    
+                                </div>
+    
+                                <div class="examplex-description  ">
+                                    <p>
+                                            P2P lending organizations can also benefit from AI since they can analyze the behavior of customer and detect all potential risks in cooperation with a certain customer.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="examplex-vidz miniscrolls">
+                                
+                                    <iframe class="vidz" src="https://www.youtube.com/embed/UNgdIkuVC6g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        
+                    </div>
+                    <div class="examplex ">
+
+                            <div class="miniscrolls" style="float:right">
+                                <div class="examplex-title">
+    
+                                       4. Improved insurance support
+
+                                </div>
+    
+                                <div class="examplex-description  ">
+                                    <p>
+                                            Helps automates hedge funds(an investment fund that pools capital from accredited individuals or institutional investors and invests in a variety of assets, often with complex portfolio-construction and risk-management techniques), making the process more secure and precise.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="examplex-vidz miniscrolls">
+                                <iframe class="vidz" src="https://www.youtube.com/embed/2Tc33TLBnkY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        
+                    </div>
+                    <div class="examplex ">
+
+                            <div class="miniscrolls">
+                                <div class="examplex-title">
+    
+                                       5. Enhanced investment analysis
+    
+                                </div>
+    
+                                <div class="examplex-description  ">
+                                    <p>
+
+                                        AI can help investors look for good sources to invest their money. 
+
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="examplex-vidz miniscrolls">
+                                
+                                    <iframe class="vidz" src="https://www.youtube.com/embed/7vunJlqLZok?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="fintechxai sec">
-            sdfsdf
-        </div>
-
-        <div class="examples sec">
-            sdfsdf
-        </div>
-
+        
         <div class="conclusion sec">
+            <div class="pretitle">
+
+            </div>
+            <div class="con-title">
+
+            </div>
+            <div class="con-discription">
+
+            </div>
+        </div>
+
+        <div class="references sec">
             dfsdfsd
         </div>
 
-    </div>
+        </div>
 
     
     <div id="particles-js"></div>
@@ -202,18 +400,24 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-</script>
+</script>   
 <script>
-        var img_height = 0;
-        $(".ex-img").each(function() {
-            img_height += $(this).height();
-        });
-        var cheight = $(".content").height() ;
-        // console.log(cheight);
-        // cheight += + img_height;
-        console.log(cheight);
-        $("#particles-js").height(cheight);
+    
+    console.log($("#particles-js").height());
+    $("#particles-js    ").height($(".content").height());
+
 </script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
+<script>
+    
+        console.log($("#particles-js").height());
+    
+window.setInterval(function(){
+    $("#particles-js").height($(".content").height());
+    $("#particles-js").width($(".content").width());
+    
+}, 1000);
+    $
+    </script> 
 </html>

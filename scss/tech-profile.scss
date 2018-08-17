@@ -47,7 +47,6 @@ html, body{
 
         background-color: transparent;
         width: 100%;
-        height: 75vh;
 
     }
 
@@ -56,6 +55,8 @@ html, body{
         text-align: center;
         display: block;
         padding-top: 17.5%;
+        height: 75vh;
+
 
         .tb-title{
 
@@ -79,6 +80,8 @@ html, body{
     .ai{
 
         color: white;
+        height: 75vh;
+
 
         .ai-part{
 
@@ -122,6 +125,8 @@ html, body{
 
         color: white;
         vertical-align: middle;
+        height: 75vh;
+
 
         .part-ai-bg{
 
@@ -168,7 +173,8 @@ html, body{
     .ai-uses{
 
         display: block;
-        height: 1530px;
+        margin-top: 10%;
+        height: 100%;    
 
         .example-title{
             color: white;
@@ -191,44 +197,172 @@ html, body{
 
             display: block;
 
+            
             .example{
 
                 margin-top: 100px;
-                width: 100%;
                 height: 300px;
                 background-color:transparent;
-                
+                width: 100%;
 
-                .ex-img-cont{
+                .contain-examples{
 
+                    
+                    .ex-img-cont{
 
-                    .ex-img{
+                        display:block;
 
-                        height : 70px;
-                        width : 100px;
+                        .ex-img{
+
+                            height : 250px;
+                            width : 400px;
+                            border: 5px solid white;
+
+                        }
+
+                    }
+
+                    .ex-title{
+
+                        font-size: 5rem;
+                        font-family: MontserratM;
+                        color: white;
+
+                    }
+
+                    .rightitle{
+
+                        padding-top: 7%;
+                        margin-left: 12%;
+
+                    }
+
+                    .leftitle{
+
+                        padding-top: 7%;
+                        margin-right: 15%;
+                        text-align: right;
 
                     }
 
                 }
-
-                
-                .leftie{
-
-                    float:left;
-
-                }
-
-                .rightie{
-
-                    float:right;
-
-                }   
+                   
 
             }
 
+            .leftie{
+
+                margin-left: 10%;
+                float:left;
+                
+
+            }
+
+            .rightie{
+
+                margin-right: 10%;
+                float:right;
+
+            }
 
         }
     }
+
+    .fintech{
+
+        color: white;
+        height: 75vh;
+        display: inline-flex;
+        padding-top: 15%;   
+
+        .fin-part{
+
+            text-align: center;
+            width: 40%;
+
+        }
+
+        .title{
+        
+            padding-top: 3%;
+            margin-left:5%;
+            width: 40%;
+            font-size: 4.5rem;
+            vertical-align: middle;
+
+
+        }
+
+        .content{
+
+            padding-top: 0%;
+            word-wrap: normal;
+            font-size: 2rem;
+            vertical-align: middle;
+            margin-left: 50%;
+            width: 45%;
+
+        }
+
+        
+    }
+
+    .fintechxai{
+
+        color: white;
+        
+
+        .titlex{
+
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        .contentx{
+
+            margin-top: 10%;
+
+            .examplex{
+
+                display:inline;
+                Background-color: red;
+                    
+                    .examplex-title{
+
+                        padding-top: 20%;
+                        font-size: 2.5rem;
+                        margin-left: 10%;
+                        font-weight: bold;
+
+                    }
+
+                    .examplex-description{
+
+                        font-size: 1.5rem;
+                        width: 40%;
+                        text-align: justify;
+                        margin-left: 10%;
+                        margin-bottom: 20%;
+
+                    
+                }
+
+                .examplex-vidz{
+
+
+                    .vidz{
+
+                        height: 100vh;
+                        width: 100%;
+                 
+                    }
+
+                }
+            }
+        }
+    }
+
+
 }
 
 canvas{
@@ -241,7 +375,7 @@ canvas{
 #particles-js{
 
     width: 100%;    
-    background-color: #b61924;
+    background-color: #127029;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;

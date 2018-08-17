@@ -1,155 +1,189 @@
 @font-face {
   font-family: MontserratB;
-  src: url("../font/Montserrat-ExtraBold.ttf");
-}
+  src: url("../font/Montserrat-ExtraBold.ttf"); }
 @font-face {
   font-family: MontserratM;
-  src: url("../font/Montserrat-Medium.ttf");
-}
+  src: url("../font/Montserrat-Medium.ttf"); }
 @font-face {
   font-family: MontserratL;
-  src: url("../font/Montserrat-Light.ttf");
-}
+  src: url("../font/Montserrat-Light.ttf"); }
 @font-face {
   font-family: MontserratR;
-  src: url("../font/Montserrat-Regular.ttf");
-}
+  src: url("../font/Montserrat-Regular.ttf"); }
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: MontserratL;
-}
+  font-family: MontserratL; }
 
 .content {
   position: absolute;
   z-index: 100;
   background-color: transparent;
-  width: 100%;
-}
-.content .sec {
-  background-color: transparent;
-  width: 100%;
-  height: 75vh;
-}
-.content .tech-background {
-  text-align: center;
-  display: block;
-  padding-top: 17.5%;
-}
-.content .tech-background .tb-title {
-  font-size: 5rem;
-  font-weight: bold;
-  color: white;
-  vertical-align: middle;
-}
-.content .tech-background .tb-subtitle {
-  font-size: 3rem;
-  color: white;
-}
-.content .ai {
-  color: white;
-}
-.content .ai .ai-part {
-  display: inline-flex;
-  text-align: center;
-  width: 40%;
-}
-.content .ai .title {
-  padding-top: 15%;
-  margin-left: 5%;
-  width: 40%;
-  font-size: 4.5rem;
-  vertical-align: middle;
-}
-.content .ai .content {
-  word-wrap: normal;
-  padding-top: 15%;
-  font-size: 2rem;
-  margin-left: 7.5%;
-  vertical-align: middle;
-}
-.content .ai .content p {
-  width: 100%;
-}
-.content .ai-bg {
-  color: white;
-  vertical-align: middle;
-}
-.content .ai-bg .part-ai-bg {
-  display: inline-flex;
-  text-align: center;
-  width: 40%;
-}
-.content .ai-bg .title-ai-bg {
-  margin-left: 5%;
-  width: 40%;
-  font-size: 4.5rem;
-  vertical-align: middle;
-  padding-top: 5%;
-}
-.content .ai-bg .content-ai-bg {
-  word-wrap: normal;
-  font-size: 2rem;
-  margin-left: 10%;
-  vertical-align: middle;
-  padding-top: 7.5%;
-}
-.content .ai-bg .content-ai-bg p {
-  width: 100%;
-}
-.content .ai-bg .content-ai-bg ul {
-  list-style: none;
-}
-.content .ai-uses {
-  display: block;
-  height: 1530px;
-}
-.content .ai-uses .example-title {
-  color: white;
-  text-align: center;
-  padding-top: 2.5%;
-}
-.content .ai-uses .example-title .main-example-title {
-  font-size: 4rem;
-  margin-right: 16.5%;
-  margin-left: 16.5%;
-}
-.content .ai-uses .example-title .sub-example-title {
-  padding-top: 10px;
-  font-size: 1.5rem;
-}
-.content .ai-uses .example-content {
-  display: block;
-}
-.content .ai-uses .example-content .example {
-  margin-top: 100px;
-  width: 10%;
-  height: 300px;
-  background-color: white;
-}
-.content .ai-uses .example-content .example .ex-img-cont .ex-img {
-  height: 70px;
-  width: 100px;
-}
-.content .ai-uses .example-content .leftie {
-  float: left;
-}
-.content .ai-uses .example-content .rightie {
-  float: right;
-}
+  width: 100%; }
+  .content .sec {
+    background-color: transparent;
+    width: 100%; }
+  .content .tech-background {
+    text-align: center;
+    display: block;
+    padding-top: 17.5%;
+    height: 75vh; }
+    .content .tech-background .tb-title {
+      font-size: 5rem;
+      font-weight: bold;
+      color: white;
+      vertical-align: middle; }
+    .content .tech-background .tb-subtitle {
+      font-size: 3rem;
+      color: white; }
+  .content .ai {
+    color: white;
+    height: 75vh; }
+    .content .ai .ai-part {
+      display: inline-flex;
+      text-align: center;
+      width: 40%; }
+    .content .ai .title {
+      padding-top: 15%;
+      margin-left: 5%;
+      width: 40%;
+      font-size: 4.5rem;
+      vertical-align: middle; }
+    .content .ai .content {
+      word-wrap: normal;
+      padding-top: 15%;
+      font-size: 2rem;
+      margin-left: 7.5%;
+      vertical-align: middle; }
+      .content .ai .content p {
+        width: 100%; }
+  .content .ai-bg {
+    color: white;
+    vertical-align: middle;
+    height: 75vh; }
+    .content .ai-bg .part-ai-bg {
+      display: inline-flex;
+      text-align: center;
+      width: 40%; }
+    .content .ai-bg .title-ai-bg {
+      margin-left: 5%;
+      width: 40%;
+      font-size: 4.5rem;
+      vertical-align: middle;
+      padding-top: 5%; }
+    .content .ai-bg .content-ai-bg {
+      word-wrap: normal;
+      font-size: 2rem;
+      margin-left: 10%;
+      vertical-align: middle;
+      padding-top: 7.5%; }
+      .content .ai-bg .content-ai-bg p {
+        width: 100%; }
+      .content .ai-bg .content-ai-bg ul {
+        list-style: none; }
+  .content .ai-uses {
+    display: block;
+    margin-top: 10%;
+    height: 100%; }
+    .content .ai-uses .example-title {
+      color: white;
+      text-align: center;
+      padding-top: 2.5%; }
+      .content .ai-uses .example-title .main-example-title {
+        font-size: 4rem;
+        margin-right: 16.5%;
+        margin-left: 16.5%; }
+      .content .ai-uses .example-title .sub-example-title {
+        padding-top: 10px;
+        font-size: 1.5rem; }
+    .content .ai-uses .example-content {
+      display: block; }
+      .content .ai-uses .example-content .example {
+        margin-top: 100px;
+        height: 300px;
+        background-color: transparent;
+        width: 100%; }
+        .content .ai-uses .example-content .example .contain-examples .ex-img-cont {
+          display: block; }
+          .content .ai-uses .example-content .example .contain-examples .ex-img-cont .ex-img {
+            height: 250px;
+            width: 400px;
+            border: 5px solid white; }
+        .content .ai-uses .example-content .example .contain-examples .ex-title {
+          font-size: 5rem;
+          font-family: MontserratM;
+          color: white; }
+        .content .ai-uses .example-content .example .contain-examples .rightitle {
+          padding-top: 7%;
+          margin-left: 12%; }
+        .content .ai-uses .example-content .example .contain-examples .leftitle {
+          padding-top: 7%;
+          margin-right: 15%;
+          text-align: right; }
+      .content .ai-uses .example-content .leftie {
+        margin-left: 10%;
+        float: left; }
+      .content .ai-uses .example-content .rightie {
+        margin-right: 10%;
+        float: right; }
+  .content .fintech {
+    color: white;
+    height: 75vh;
+    display: inline-flex;
+    padding-top: 15%; }
+    .content .fintech .fin-part {
+      text-align: center;
+      width: 40%; }
+    .content .fintech .title {
+      padding-top: 3%;
+      margin-left: 5%;
+      width: 40%;
+      font-size: 4.5rem;
+      vertical-align: middle; }
+    .content .fintech .content {
+      padding-top: 0%;
+      word-wrap: normal;
+      font-size: 2rem;
+      vertical-align: middle;
+      margin-left: 50%;
+      width: 45%; }
+  .content .fintechxai {
+    color: white; }
+    .content .fintechxai .titlex {
+      font-size: 4rem;
+      text-align: center; }
+    .content .fintechxai .contentx {
+      margin-top: 10%; }
+      .content .fintechxai .contentx .examplex {
+        display: inline;
+        Background-color: red; }
+        .content .fintechxai .contentx .examplex .examplex-title {
+          padding-top: 20%;
+          font-size: 2.5rem;
+          margin-left: 10%;
+          font-weight: bold; }
+        .content .fintechxai .contentx .examplex .examplex-description {
+          font-size: 1.5rem;
+          width: 40%;
+          text-align: justify;
+          margin-left: 10%;
+          margin-bottom: 20%; }
+        .content .fintechxai .contentx .examplex .examplex-vidz .vidz {
+          height: 100vh;
+          width: 100%; }
 
 canvas {
   display: block;
-  vertical-align: bottom;
-}
+  vertical-align: bottom; }
 
 #particles-js {
   width: 100%;
-  background-color: #b61924;
+  background-color: #127029;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  z-index: -100;
-}
+  z-index: -100; }
+
+/*# sourceMappingURL=tech-profile.css.map */
