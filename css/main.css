@@ -25,47 +25,64 @@ h1 {
   height: 100vh;
   width: 100%; }
 
-.navi {
-  line-height: 50px;
+  .navi {
+  min-height: 10%;
+  max-height:13%;
   position: fixed;
   width: 100%;
   color: white;
-  transition: background-color 0.5s ease 0s; }
+  background-color: transparent;
+  box-shadow: none;
+  transition: background-color 0.5s ease 0s; 
+  
+}
+
 
 .logo {
   position: fixed;
-  display: inline;
   font-family: MontserratB;
-  font-size: 3rem;
-  margin: 0.9% 2.5%;
-  margin-left: 3%; }
+  font-size: 3.5vmax;
+  margin-left: 3%;  
+}
+
+
 
 .menu {
-  display: inline;
-  text-align: right; }
+  width:100%;
+}
 
 .nav-menu {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  margin-right: 0;
+  padding: 0; 
+  display: inline-flex;
+  float:right;
+  height: 100%;
+  padding-bottom:2px;
+  margin-top: 0.5%;
+}
+
 
 .nav-menu li {
   text-align: center;
   font-family: MontserratR;
-  font-size: 2rem;
+  font-size: 2.5vmax;
   display: inline-block;
-  width: 150px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  margin: 0;
+  max-width: 200px;
+  margin-left: 20px;
+  margin-right:20px;
   height: 100%;
-  border-left: 2px white solid;
-  cursor: pointer; }
+  cursor: pointer; 
+  
+}
 
 .nav-menu li:hover {
-  background-color: white;
-  color: #1f3864;
-  transition: 0.5s; }
+  
+  transition: 0.3s;
+  border-bottom: 3px white solid;
+
+}
 
 .nav-menu li::selection {
   background-color: Transparent; }
@@ -74,6 +91,7 @@ h1 {
   background-color: #1f3864;
   transition: background-color 0.5s ease 0s;
   opacity: 0.95; }
+
 
 .nav-butt:hover {
   background-color: white; }
@@ -85,8 +103,8 @@ h1 {
 
 .title {
   display: absolute;
-  padding-top: 22%;
-  font-size: 8rem;
+  padding-top: 200px;
+  font-size: 8vmax;
   font-family: MontserratM; }
 
 .tech-pro {
@@ -99,12 +117,12 @@ h1 {
   text-align: center; }
 
 .tc-title {
-  font-size: 2.5rem;
-  margin-left: 19%;
-  margin-right: 19%;
-  padding-top: 12.5%;
-  padding-bottom: 10px;
-  border-bottom: 2px black solid; }
+  padding-top: 11%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 2px black solid;
+  font-size: 5vmax;
+  font-family: MontserratB; }
 
 .tc-title h1 {
   margin: 0;
@@ -113,14 +131,13 @@ h1 {
 .tc-content {
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 3rem; }
+  font-size: 2vmax; }
 
 .tc-link{
-    margin-top: 35.9%;
     font-weight: bold;
     vertical-align: middle;
-    height: 15%;
-    font-size: 4rem; 
+    max-height: 15%;
+    font-size: 6vmin; 
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
@@ -158,20 +175,20 @@ h1 {
   display: block; }
 
 .teamc-title {
-  margin-top: 8%;
+  margin-top: 9.125%;
   font-family: MontserratB;
-  font-size: 5rem;
+  font-size: 5vmax;
   border-bottom: 3px black solid;
-  margin-left: 30%;
-  margin-right: 30%;
-  padding-bottom: 1%; }
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 0.25%; }
 
 .teamc-members {
-  margin-top: 5%;
+  margin-top: 2.5%;
   display: flex; }
 
 .member {
-  width: 33%;
+  max-width: 33%;
 }
 
   .last-member {
@@ -179,16 +196,16 @@ h1 {
 
 .name {
   font-family: MontserratB;
-  font-size: 2.5rem; }
+  font-size: 2vmax; }
 
 .t-img {
-  width: 70%;
+  max-width: 50%;
   border-radius: 50%;
   box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px; }
 
 .par{
   text-align: justify;
-  font-size: 1.25rem;
+  font-size: 1.25vmax;
   padding: 5% 20px; 
   transition: 200ms;}
 
@@ -213,10 +230,8 @@ h1 {
   color:white; }
 
 .teamc-proceed{
-  padding-top: 20px;
   font-size: 3rem;
   font-weight: bold;
-  padding-bottom: 20px;
   transition: 200ms;}
 
 .teamc-proceed:hover{
@@ -231,13 +246,13 @@ h1 {
 
 .contact-title {
   text-align: center;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 10%;
+  margin-right: 10%;
   width: auto;
   padding-top: 4%;
   border-bottom: solid black 2px;
   font-family: MontserratB;
-  font-size: 6rem; }
+  font-size: 6vmax; }
 
 .contact-group {
   margin-top: 2.5%;
@@ -257,17 +272,17 @@ h1 {
   margin-top: 10px;
   margin-left: 30%;
   margin-right: 30%;
-  width: 40%;
+  width: 35%;
   height: auto;
   border-radius: 50%; }
 
 .contact-info-contain{
 
-  font-size: 1.75rem;
+  font-size: 1.75vmax;
   display: inline-flex;
   width: 100%;
   font-weight: bold;
-padding-left: 1%;
+  padding-left: 1%;
 }
 
 .contact-info-contain .socials{
@@ -276,8 +291,7 @@ padding-left: 1%;
 }
 
 .icons{
-  width: 100px;
-  height: 100px;}  
+  max-width: 67.25px;}  
 
 .question {
   text-align: center;
