@@ -17,6 +17,32 @@ html, body {
   height: 100%;
   width: 100%; }
 
+.exit{
+  position: fixed;
+  left: 50%;
+  height: 26px;
+  padding-top:13px;
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  transform: translate(-50%,0);
+  border: 2px white solid;
+  border-top:none;
+  color: white;
+  background-color: transparent;
+  font-family: MontserratB;
+  z-index: 1000000000000;
+  transition: 0.2s;
+}
+
+.exit:hover{
+  background-color: #15255a;
+  color:white;
+  transition: 0.2s;
+  cursor:pointer;
+  user-select: none;
+}
+
 .container {
   width: 100%;
   padding: 0;
@@ -28,21 +54,23 @@ html, body {
     padding: 0;
     width: 33.33333%;
     text-align: center;
-    padding-top: 3%; }
+     }
     .container .sec .person-name {
       font-family: MontserratB;
-      font-size: 5rem;
-      color: white;
-      padding-bottom: 25%; }
+      font-size: 4vmax;
+      color: white; 
+      margin-top: 10%;}
     .container .sec .person-description {
-      background-color: rgba(0,0,0,0.5);
-      height: 325px;
+      background-color: rgba(0,0,0,0.75);
+      height: 37.5%;
       margin-top: 47.5%;
       padding-top: 2.5%;
       padding-left: 5%;
       padding-right: 5%;
-      font-size: 1.5rem;
+      font-size: 2.45vmin;
       text-align: justify;
-      color: white; }
+      color: white; 
+      position:absolute;
+      bottom:0;}
 
 /*# sourceMappingURL=team.css.map */
