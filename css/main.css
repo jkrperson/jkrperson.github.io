@@ -115,6 +115,25 @@ h1 {
   margin-right: 10%;
   font-size: 3rem; }
 
+.tc-link{
+    margin-top: 35.9%;
+    font-weight: bold;
+    vertical-align: middle;
+    height: 15%;
+    font-size: 4rem; 
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.tc-link:hover{
+    
+  background-color: #1f3864;
+  color: white;
+  transition: 200ms;
+  cursor: pointer;
+    
+}
+
 .tech-background {
   background: url(../images/tech-prof1.png) no-repeat center;
   background-size: cover;
@@ -229,11 +248,9 @@ h1 {
 .contact-member {
   width: 33.33%;
   height: 100%;
-  border-right: 2px solid black; }
+  }
 
 .contact-desc{
-  padding-top: 10%;
-  padding-left: 10%;
 }
 
 .c-img {
@@ -246,18 +263,21 @@ h1 {
 
 .contact-info-contain{
 
-  font-size: 1.5rem;
-  display: inline-block;
-
+  font-size: 1.75rem;
+  display: inline-flex;
+  width: 100%;
+  font-weight: bold;
+padding-left: 1%;
 }
 
-.contact-info-contain span{
-  display: inline-block;
-  vertical-align: middle;}
+.contact-info-contain .socials{
+    padding-top: 5%;
+    padding-left:1%;
+}
 
 .icons{
-  width: 75px;
-  height: 75px;}  
+  width: 100px;
+  height: 100px;}  
 
 .question {
   text-align: center;
@@ -265,14 +285,26 @@ h1 {
   width: 100%; }
 
 .question-title {
-  padding-top: 7.5%;
+  padding-top: 5%;
   border-bottom: 3px solid black;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: MontserratB;
-  margin-left: 40%;
+  margin-left: 39%;
   margin-right: 39%; }
 
 .question-body {
   margin-top: 10%; }
+
+.coll-head{
+    
+    font-family: MontserratB;
+    font-size: 3rem;
+    
+}
+
+.coll-body{
+    font-family: MontserratM;
+    font-size: 1.5rem;
+}
 
 /*# sourceMappingURL=main.css.map */

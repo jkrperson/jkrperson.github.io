@@ -28,18 +28,20 @@ html, body {
     padding: 0;
     width: 33.33333%;
     text-align: center;
-    padding-top: 1%;
-    border-left: 1px white solid; }
+    padding-top: 3%; }
     .container .sec .person-name {
       font-family: MontserratB;
-      font-size: 4rem;
+      font-size: 5rem;
       color: white;
-      padding-bottom: 30%; }
+      padding-bottom: 25%; }
     .container .sec .person-description {
-      padding-top: 50%;
+      background-color: rgba(0,0,0,0.5);
+      height: 325px;
+      margin-top: 47.5%;
+      padding-top: 2.5%;
       padding-left: 5%;
       padding-right: 5%;
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       text-align: justify;
       color: white; }
 

@@ -108,8 +108,8 @@ html, body {
         .content .ai-uses .example-content .example .contain-examples .ex-img-cont {
           display: block; }
           .content .ai-uses .example-content .example .contain-examples .ex-img-cont .ex-img {
-            height: 250px;
-            width: 400px;
+            height: 400px;
+            width: 700px;
             border: 5px solid white; }
         .content .ai-uses .example-content .example .contain-examples .ex-title {
           font-size: 5rem;
@@ -174,13 +174,59 @@ html, body {
           height: 100vh;
           width: 100%; }
 
+        .content .conclusion{
+
+          height: 100vh;
+          color: white;
+          text-align: center
+
+        } 
+
+
+        .content .conclusion .pretitle{
+
+          padding-top: 10%;
+          font-size: 5rem;
+          font-family:MontserratB;
+
+        }
+
+
+        .content .conclusion .con-title{
+
+          padding-top: 5%;
+          font-size: 5rem;
+          font-family:MontserratB;
+
+        }
+
+        .content .conclusion .con-discription{
+
+          padding-top: 5%;
+          font-size: 2rem;
+          font-family:MontserratB;
+          padding-right: 10%;
+          padding-left: 10%;
+
+        }
+
+        .content .endingz{
+          text-align: center;
+          height: 50px;
+          color: White;
+          font-size: 1.5rem;
+        }
+        
+
+
+
 canvas {
   display: block;
   vertical-align: bottom; }
 
 #particles-js {
   width: 100%;
-  background-color: #127029;
+  background-color: #0d2281 ;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
