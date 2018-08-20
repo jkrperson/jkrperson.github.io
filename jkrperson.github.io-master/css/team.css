@@ -1,0 +1,76 @@
+@font-face {
+  font-family: MontserratB;
+  src: url("../font/Montserrat-ExtraBold.ttf"); }
+@font-face {
+  font-family: MontserratM;
+  src: url("../font/Montserrat-Medium.ttf"); }
+@font-face {
+  font-family: MontserratL;
+  src: url("../font/Montserrat-Light.ttf"); }
+@font-face {
+  font-family: MontserratR;
+  src: url("../font/Montserrat-Regular.ttf"); }
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: MontserratL;
+  height: 100%;
+  width: 100%; }
+
+.exit{
+  position: fixed;
+  left: 50%;
+  height: 26px;
+  padding-top:13px;
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  transform: translate(-50%,0);
+  border: 2px white solid;
+  border-top:none;
+  color: white;
+  background-color: transparent;
+  font-family: MontserratB;
+  z-index: 1000000000000;
+  transition: 0.2s;
+}
+
+.exit:hover{
+  background-color: #15255a;
+  color:white;
+  transition: 0.2s;
+  cursor:pointer;
+  user-select: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  height: 100vh; }
+  .container .sec {
+    margin: 0;
+    padding: 0;
+    width: 33.33333%;
+    text-align: center;
+     }
+    .container .sec .person-name {
+      font-family: MontserratB;
+      font-size: 4vmax;
+      color: white; 
+      margin-top: 10%;}
+    .container .sec .person-description {
+      background-color: rgba(0,0,0,0.75);
+      height: 37.5%;
+      margin-top: 47.5%;
+      padding-top: 2.5%;
+      padding-left: 5%;
+      padding-right: 5%;
+      font-size: 2.45vmin;
+      text-align: justify;
+      color: white; 
+      position:absolute;
+      bottom:0;}
+
+/*# sourceMappingURL=team.css.map */

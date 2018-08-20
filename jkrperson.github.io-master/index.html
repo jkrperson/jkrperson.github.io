@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Home</title>
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollify.js"></script>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script>
+        $(function() {
+            $.scrollify({
+                section : ".sec",
+            });
+        });
+
+        $(document).ready(function() {
+        // Transition effect for navbar 
+            $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+                if($(this).scrollTop() > 500 ) { 
+                    $('.navi').addClass('solid');
+                } else {
+                    $('.navi').removeClass('solid');
+                }
+            });
+        });
+        
+        
+    </script>
+</head>
+<body>
+    
+<div class="mobile" style="color:red;">
+    This is site is not compatible with your device. please use a laptop or a desktop to access the site.
+</div>
+<div class="computer">
+    <div class="navi">
+        <div class="logo">
+            Fiat
+        </div>        
+        <div class="menu">
+            <ul class="nav-menu">
+                <li onclick="$.scrollify.move('#1');">
+                    Home
+                <li onclick="$.scrollify.move('#2');">
+                    Tech
+                <li onclick="$.scrollify.move('#3');">
+                    Team                
+                <li onclick="$.scrollify.move('#4');">
+                    Contact
+                <li class="last" onclick="$.scrollify.move('#5');">
+                    FAQs
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="intro sec">
+
+            <div class="title">
+                AI in Financial Technology
+            </div>
+
+            <div class="click-to-scroll">
+                
+            </div>
+        </div>
+
+
+        <div class="tech-pro sec">
+
+            <div class="tech-pro-content">
+
+                <div class="tc-title">
+                    
+                    A.I. in Fintech
+                </div>
+
+                <div class="tc-content">
+
+                    <p  style="text-align: justify">
+                        Financial technology is loosely defined as any technological innovation applied in financial services. Now with the presence of A.I. more intensive tasks will become easier and tasks that need long term analytics and precision will become more accurate because AI will be able to take over it.
+                    </p>
+
+                </div>
+                <div class="tc-link" onclick="window.location.href = 'tech-profile.html'">
+                    Click here to know more!
+                </div>
+
+            </div>
+
+            <div class="tech-background">
+
+            </div>
+
+        </div>
+
+
+        <div class="team sec">
+
+            <div class="team-background">
+
+            </div>
+
+            <div class="team-content">
+
+                <div class="teamc-title">
+                    Team Members
+                </div>
+
+
+                <div class="teamc-members">
+
+                    <div class="member">
+
+                        <img src="images/glyca.jpg" class="t-img"/>
+
+                        <div class="name">
+                        
+                            Glyca Nuncio                            
+                        
+                        </div>
+                    
+                        <div class="par gly">
+                       
+                            Glyca is the lead systems analyst in Accenture,a global management consulting and professional services firm                      
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="member">
+
+                        <img src="images/jose.jpg" class="t-img"/>
+
+                        <div class="name">
+                        
+                            Jose Resabal
+                        
+                        </div>
+        
+                        
+                        <div class="par jos">
+                            
+                            
+                            Owns one of the top FinTech companies in the world, Jose Resabal is the CEO of Adyen
+                            
+                        </div>
+
+                    </div>
+
+
+                    <div class="member last-member">    
+
+                        <img src="images/kyle.jpg" class="t-img"/>
+
+                        <div class="name">
+                        
+                            Kyle Coo
+                        
+                        </div>
+
+                        <div class="par kyl">
+
+                              Kyle is the lead advisor of Shanghai Lujiazui International Financial Asset Exchange Co., Ltd., also known as Lufax. Lufax is an online Internet finance.                         
+
+                        </div>      
+
+                    </div>
+
+                </div>
+
+                <div class="teamc-proceed" onclick="window.location.href = 'team.html'">
+
+                    Click to Know more
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact sec">
+
+            <div class="contact-title">
+            
+                    Contact Us
+
+            </div>
+
+            <div class="contact-group">
+                
+                <div class="contact-member">
+                
+                   <img src="images/glyca.jpg" class="c-img"/>
+
+                    <div class="contact-desc">
+                        <div class="contact-info-contain">
+                            <div class="icon-container">
+                                <img src="images/em.png" class="icons">
+                            </div>
+                            <div class="socials">
+                                glycanuncio@gmail.com
+                            </div>
+                        </div>
+                        <div class="contact-info-contain">
+                            <div class="icon-container">
+                                <img src="images/fb.png" class="icons">
+                            </div>
+                            <div class="socials">
+                                @glycanuncio
+                            </div>
+                        </div>
+                      
+
+                            <!-- 
+                            glycanuncio@gmail.com
+                            @glycanuncio
+
+                         -->
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-member">
+
+                    <img src="images/jose.jpg" class="c-img"/>
+                
+                    <div class="contact-desc">
+                            <div class="contact-info-contain">
+                               <div class="icon-container">
+                                    <img src="images/em.png" class="icons">
+                                </div>
+                                <div class="socials">
+                                josekristianresabal@gmail.com
+                                </div>
+                            </div>
+                            <div class="contact-info-contain">
+                                <div class="icon-container">
+                                    <img src="images/fb.png" class="icons">
+                                </div>
+                                <div class="socials">
+                                    @theofficialjoseresabal
+                                </div>
+                            </div>
+                            <div class="contact-info-contain">
+                                <div class="icon-container">
+                                    <img src="images/gh.png" class="icons">
+                                </div>
+                                <div class="socials">
+                                    @jkrperson
+                                </div>
+                                  
+                             </div>
+                            <!-- 
+
+                            josekristianresabal@gmail.com
+                            @theofficialjoseresabal
+                            @jkrperson
+                            
+                        -->
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-member">
+
+                    <img src="images/kyle.jpg" class="c-img"/>
+                
+                    <div class="contact-desc">
+                        
+                            <div class="contact-info-contain">
+                                <div class="icon-container">
+                                    <img src="images/em.png" class="icons">
+                                </div>
+                                <div class="socials">
+                                    coo.kyle222@gmail.com
+                                </div>
+                                
+                            </div>
+                            <div class="contact-info-contain">
+                                <div class="icon-container">
+                                    <img src="images/fb.png" class="icons">
+                                </div>
+                                <div class="socials">
+                                     @kyle.coo.3
+                                </div>
+                               
+                            </div>
+                                <!-- 
+
+                            coo.kyle222@gmail.com
+                            @kyle.coo.3
+
+                         -->
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="question sec">
+
+            <div class="question-title">
+                  
+                    Questions?
+    
+            </div>
+
+
+            <div class="question-body">
+
+                  <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header coll-head">What is FinTech?</div>
+                        <div class="collapsible-body coll-body"><span>Financial Technology, or FinTech, refers to the technology-enabled innovation in financial services. It involves spurring new business models, applications, and processes such as payment applications and platforms in mobile devices and computers. FinTech, as of now, is having a transformative effect towards financial markets,institutions, and on the provision of financial services as a whole.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header coll-head">How Did FinTech Come About?</div>
+                        <div class="collapsible-body coll-body"><span>The financial crisis that occured of 2008 gave an opening for people to introduce a new model in alternative financial services which eventually gave rise to the FinTech industry.
+</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header coll-head">What is the Driving Force behind FinTech?</div>
+                        <div class="collapsible-body coll-body"><span>The Generation Y
+Also known as the Millennial Generation, is a generation shaped by technology and openness to social media. This generation felt that the traditional model does not really suite them in managing their finances. This led rise to the application of Technology (Artificial Intelligence) into Finance which was later coined as “FinTech”.<br>
+Technological innovation fuelled by a more connected society, availability of information and the ability to acquire and analyse big data.  This is not only fuelling alternative finance start-ups, but helping traditional players deliver better customer insight and experience
+</span></div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <script>
+    $(document).ready(function(){
+            $('.collapsible').collapsible();
+        });
+
+    </script>
+</body>
+</html>
