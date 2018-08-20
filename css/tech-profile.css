@@ -17,6 +17,28 @@ html, body {
   margin: 0;
   font-family: MontserratL; }
 
+.back-icon{
+    
+    position: fixed;
+    margin: 1% 1%;
+    z-index: 100000000;
+}
+
+
+.icon-img{
+    
+    max-height: 60px;
+    min-height: 50px;
+    content: url("../images/back-icon.png");
+    transition: 100ms;
+}
+
+.icon-img:hover{
+    
+    transition: 100ms;
+    content: url("../images/back-icon-hover.png");
+}
+
 .content {
   position: absolute;
   z-index: 100;

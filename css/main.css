@@ -26,7 +26,7 @@ h1 {
   width: 100%; }
 
   .navi {
-  min-height: 10%;
+  min-height: 5%;
   max-height:13%;
   position: fixed;
   width: 100%;
@@ -321,4 +321,10 @@ h1 {
     font-size: 1.5rem;
 }
 
+.mobile {display:none;}
+
+@media screen and (max-width:768px) {
+    .computer{display:none;}
+    .mobile {display:block}
+}
 /*# sourceMappingURL=main.css.map */
