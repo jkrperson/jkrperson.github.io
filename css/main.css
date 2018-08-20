@@ -74,12 +74,12 @@ h1 {
   margin-right:20px;
   height: 100%;
   cursor: pointer; 
-  
+  transition: 0.3s;
 }
 
 .nav-menu li:hover {
   
-  transition: 0.3s;
+  transition: 0.2s;
   border-bottom: 3px white solid;
 
 }
