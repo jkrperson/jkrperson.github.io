@@ -1,0 +1,247 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GridItem from '../components/GridItem.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import { Button } from "$lib/components/ui/button";
+
+const writings = {
+engineering: [
+{ title: "Optimizing Large Language Models for Edge Devices", date: "2024-03-15" },
+{ title: "The Death of the REST API", date: "2024-02-28" },
+{ title: "Building Resilient Distributed Systems", date: "2024-01-10" }
+],
+founder: [
+{ title: "Why I Left Big Tech to Build for Creators", date: "2024-04-02" },
+{ title: "The Economics of AI-First Products", date: "2024-03-20" },
+{ title: "Fundraising in a Bear Market", date: "2024-02-15" }
+]
+};
+
+const resources = [
+"The Art of Doing Science and Engineering",
+"System Design Primer",
+"Patterns of Enterprise Application Architecture",
+"Designing Data-Intensive Applications",
+"Clean Code",
+"Refactoring UI",
+"The Pragmatic Programmer",
+"Structure and Interpretation of Computer Programs",
+"Introduction to Algorithms",
+"Deep Learning Book"
+];
+---
+
+<Layout title="Jose | Founder & Engineer">
+  <main class="min-h-screen border-l border-r border-border max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12">
+
+    <!-- Hero Section -->
+    <GridItem span="col-span-1 md:col-span-8" class="min-h-[80vh] flex flex-col justify-between border-t">
+      <div class="space-y-2">
+        <span class="font-mono text-xs text-muted-foreground block mb-4">/// IDENTITY_SIGNAL</span>
+        <h1 class="text-6xl md:text-8xl font-extrabold uppercase tracking-tighter leading-[0.8]">
+          Jose<br />
+          Founder<br />
+          Engineer<br />
+          <span class="text-muted-foreground">Researcher</span>
+        </h1>
+      </div>
+
+      <div class="max-w-xl space-y-6">
+        <p class="text-xl md:text-2xl font-light leading-relaxed">
+          Turning bleeding-edge innovations into user-centric products.
+          <br />
+          <span class="text-muted-foreground">Researcher and Product Manager turned Founder building for the Creator
+            Economy.</span>
+        </p>
+
+        <div class="flex gap-4">
+          <Button variant="outline"
+            class="rounded-none border-foreground hover:bg-foreground hover:text-background transition-colors uppercase font-mono text-xs tracking-wider h-12 px-8">
+            Contact Protocol
+          </Button>
+        </div>
+      </div>
+    </GridItem>
+
+    <!-- Hero Image / Halftone -->
+    <GridItem span="col-span-1 md:col-span-4"
+      class="min-h-[50vh] md:min-h-[80vh] border-t p-0 relative overflow-hidden bg-muted/10">
+      <div
+        class="absolute inset-0 bg-[url('/IMG_8079.JPG')] bg-cover bg-center grayscale contrast-125 brightness-110 mix-blend-multiply">
+      </div>
+      <!-- Halftone Overlay -->
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle,var(--foreground)_1px,transparent_1.5px)] [background-size:4px_4px] opacity-20">
+      </div>
+
+      <!-- Filler Elements / HUD -->
+      <div class="absolute top-4 left-4 font-mono text-[10px] text-foreground/60">
+        COORD: 34.0522° N, 118.2437° W<br />
+        SYS: ONLINE
+      </div>
+      <div class="absolute top-4 right-4 w-8 h-8 border border-foreground/20 border-t-foreground border-r-foreground">
+      </div>
+      <div class="absolute bottom-4 right-4 font-mono text-[10px] text-foreground/60 text-right">
+        SCANNING...<br />
+        TARGET_LOCKED
+      </div>
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] border border-foreground/10 rounded-full">
+      </div>
+      <div class="absolute bottom-4 left-4 font-mono text-xs text-background bg-foreground px-2 py-1">
+        IMG_SEQ_001
+      </div>
+    </GridItem>
+
+    <!-- Current Venture -->
+    <GridItem span="col-span-1 md:col-span-12" class="py-24">
+      <SectionHeader title="Current Venture" number="01" />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="space-y-6">
+          <div class="flex items-center gap-4">
+            <h3 class="text-4xl font-bold">HeyEva</h3>
+            <span class="px-2 py-1 border border-foreground text-xs font-mono uppercase">Live</span>
+          </div>
+          <p class="text-2xl font-light text-muted-foreground">Building the AI operating system for content creators.
+          </p>
+          <a href="https://www.heyeva.me" target="_blank"
+            class="inline-flex items-center gap-2 text-sm font-mono hover:underline">
+            www.heyeva.me ->
+          </a>
+        </div>
+
+        <div class="space-y-8">
+          <ul class="space-y-4 font-mono text-sm">
+            <li class="flex items-start gap-4">
+              <span class="text-muted-foreground">01</span>
+              <span>Get better rates - AI Negotiates Deals on Autopilot</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="text-muted-foreground">02</span>
+              <span>Creators Get Paid Faster - No more waiting 60-90 days</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="text-muted-foreground">03</span>
+              <span>Scale your Virality - AI Content Analysis and Strategy</span>
+            </li>
+          </ul>
+
+          <div class="pt-8 border-t border-border/50">
+            <span class="text-xs font-mono text-muted-foreground block mb-2">BACKED BY</span>
+            <div class="flex items-center gap-2">
+              <!-- Antler Logo Placeholder -->
+              <div class="h-8 w-24 bg-foreground/10 flex items-center justify-center text-xs font-bold tracking-widest">
+                ANTLER</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </GridItem>
+
+    <!-- Writings -->
+    <GridItem span="col-span-1 md:col-span-8">
+      <SectionHeader title="Transmission Log" number="02" />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h4 class="font-mono text-xs text-muted-foreground mb-6 uppercase">/// Engineering_Channel</h4>
+          <ul class="space-y-6">
+            {writings.engineering.map((post) => (
+            <li class="group cursor-pointer">
+              <div class="flex justify-between items-baseline mb-1">
+                <span class="font-medium group-hover:underline decoration-1 underline-offset-4">{post.title}</span>
+              </div>
+              <span class="text-xs font-mono text-muted-foreground">{post.date}</span>
+            </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-mono text-xs text-muted-foreground mb-6 uppercase">/// Founder_Channel</h4>
+          <ul class="space-y-6">
+            {writings.founder.map((post) => (
+            <li class="group cursor-pointer">
+              <div class="flex justify-between items-baseline mb-1">
+                <span class="font-medium group-hover:underline decoration-1 underline-offset-4">{post.title}</span>
+              </div>
+              <span class="text-xs font-mono text-muted-foreground">{post.date}</span>
+            </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </GridItem>
+
+    <!-- X Feed / Social Signal -->
+    <GridItem span="col-span-1 md:col-span-4" class="bg-muted/30">
+      <div class="h-full flex flex-col">
+        <div class="flex items-center justify-between mb-6">
+          <span class="font-mono text-xs uppercase">Live_Feed</span>
+          <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+        </div>
+        <a href="https://twitter.com/jkresabal" target="_blank"
+          class="flex-1 border border-border p-6 font-mono text-xs text-muted-foreground flex flex-col items-center justify-center text-center hover:bg-foreground hover:text-background transition-all group cursor-pointer">
+          <div
+            class="w-8 h-8 mb-4 border border-current rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+            </svg>
+          </div>
+          <span class="mb-2">@jkresabal</span>
+          <span class="underline decoration-dotted underline-offset-4">ESTABLISH_UPLINK -></span>
+        </a>
+      </div>
+    </GridItem>
+
+    <!-- Previous Projects -->
+    <GridItem span="col-span-1 md:col-span-6">
+      <SectionHeader title="Archive" number="03" />
+      <div class="space-y-4">
+        <p class="text-muted-foreground">Academic and research contributions.</p>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Xzap8E8AAAAJ&citation_for_view=Xzap8E8AAAAJ:d1gkVwhDpl0C"
+          target="_blank"
+          class="block p-4 border border-border hover:bg-foreground hover:text-background transition-all group">
+          <div class="flex justify-between items-center">
+            <span class="font-mono text-sm">GOOGLE_SCHOLAR</span>
+            <span class="group-hover:translate-x-1 transition-transform">-></span>
+          </div>
+        </a>
+      </div>
+    </GridItem>
+
+    <!-- Resources -->
+    <GridItem span="col-span-1 md:col-span-6">
+      <SectionHeader title="Input Buffer" number="04" />
+      <ul class="grid grid-cols-1 gap-2">
+        {resources.slice(0, 5).map((item, i) => (
+        <li class="flex items-baseline gap-4 text-sm border-b border-border/50 pb-2 last:border-0">
+          <span class="font-mono text-xs text-muted-foreground">0{i+1}</span>
+          <span class="truncate">{item}</span>
+        </li>
+        ))}
+      </ul>
+      <div class="mt-4 pt-2 border-t border-border">
+        <button class="text-xs font-mono hover:underline uppercase">Load_More_Data [+]</button>
+      </div>
+    </GridItem>
+
+    <!-- Footer -->
+    <GridItem span="col-span-1 md:col-span-12" class="py-12">
+      <div class="flex flex-col md:flex-row justify-between items-end gap-8">
+        <div>
+          <h2 class="text-8xl font-bold tracking-tighter opacity-10 select-none">JOSE</h2>
+        </div>
+        <div class="flex gap-8 font-mono text-sm">
+          <a href="https://github.com/jkrperson" class="hover:text-muted-foreground transition-colors">GITHUB</a>
+          <a href="https://linkedin.com/in/jkresabal" class="hover:text-muted-foreground transition-colors">LINKEDIN</a>
+          <a href="https://twitter.com/jkresabal" class="hover:text-muted-foreground transition-colors">TWITTER</a>
+        </div>
+      </div>
+    </GridItem>
+
+  </main>
+</Layout>
